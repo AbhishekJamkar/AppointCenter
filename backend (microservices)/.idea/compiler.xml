@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver" />
+        <module name="booking" />
+        <module name="business" />
+        <module name="review" />
+        <module name="gateway-server" />
+        <module name="payment" />
+        <module name="user-service" />
+        <module name="category" />
+        <module name="notifications" />
+        <module name="service-offering" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="salon" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="booking" options="-parameters" />
+      <module name="business" options="-parameters" />
+      <module name="category" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="notifications" options="-parameters" />
+      <module name="payment" options="-parameters" />
+      <module name="review" options="-parameters" />
+      <module name="service-offering" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
