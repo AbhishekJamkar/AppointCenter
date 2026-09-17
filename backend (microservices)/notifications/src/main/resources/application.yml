@@ -9,7 +9,7 @@ spring:
     url: "jdbc:mysql://localhost:3306/appointment_notificationdb?createDatabaseIfNotExist=true"
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: "#Abhishek123"
+    password: "#Abhishek123" //replace with your key
 
   jpa:
     hibernate:
@@ -27,8 +27,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ronaklakhot@gmail.com
-    password: vufo uzir qrsn bfcf
+    username: abcdakhot@gmail.com //replace with your key
+    password: abcd uzir qrsn abcd //replace with your key
     properties:
       mail:
         smtp:
@@ -64,12 +64,12 @@ endpoints:
 
 razorpay:
   api:
-    key: rzp_test_TR5QZYLmJ2hJcV
-    secret: T6aH37uqIwJK1KyrHEwUskOE
+    key: rzp_test_TR5QZYabcd  //replace with your key
+    secret: T6aH37uqIwJK1Kyabcd //replace with your key
 
 stripe:
   api:
-    key: sk_test_51U6NBs3NZhBKCzge7zSwux9bCujzxuu391beNk46ajzwrO22PT5gh3gixFlZQiKzAwboLVnfguvUuqSk4iWPmnmX00EcoD1vgb
+    key: sk_test_xxxxxxxxxxxxxxxxxxxxbCujzxuu391beNk46xxxxxxxxxxxxxxxxxxx    //replace with your key
 
 
 eureka:
