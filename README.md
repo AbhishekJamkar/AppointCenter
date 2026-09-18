@@ -13,10 +13,10 @@
 
 ## 📑 Table of Contents
 1. [Key Features](#-key-features)
-2. [Architecture Overview](#-architecture-overview)
+2. [Architecture Overview](#architecture-overview)
 3. [Tech Stack](#️-tech-stack)
 4. [Project Structure](#-project-structure)
-5. [Prerequisites](#-prerequisites)
+5. [Prerequisites](#prerequisites)
 6. [Step-by-Step Setup Guide & Execution Walkthrough](#-step-by-step-setup-guide--execution-walkthrough)
    - [Step 1: MySQL Database Initialization](#step-1-mysql-database-initialization)
    - [Step 2: Keycloak IAM Setup (Docker)](#step-2-keycloak-iam-setup-docker)
@@ -52,7 +52,7 @@
 - **Financial Records**: Comprehensive transaction tables tracking customer details, booking IDs, and amounts received.
 
 ---
-
+<span id="architecture-overview"></span>
 ## 🏛️ Architecture Overview
 
 The system is designed on **Cloud-Native Microservices Architecture**:
@@ -113,7 +113,7 @@ AppointCenter/
 ```
 
 ---
-
+<span id="prerequisites"></span>
 ## ⚙️ Prerequisites
 
 Ensure you have the following installed on your machine:
