@@ -22,7 +22,7 @@
    - [Step 2: Keycloak IAM Setup (Docker)](#step-2-keycloak-iam-setup-docker)
    - [Step 3: Backend Microservices Setup](#step-3-backend-microservices-setup)
    - [Step 4: Frontend Setup (React.js)](#step-4-frontend-setup-reactjs)
-7. [Visual Application Walkthrough & User Flows](#-visual-application-walkthrough--user-flows)
+7. [Visual Application Walkthrough & User Flows](#visual-walkthrough)
    - [1. User Authentication & Registration](#1-user-authentication--registration)
    - [2. Partner / Business Owner Onboarding](#2-partner--business-owner-onboarding)
    - [3. Business Owner Dashboard & Service Setup](#3-business-owner-dashboard--service-setup)
@@ -342,7 +342,7 @@ npm start
 The application will launch automatically at `http://localhost:3000`.
 
 ---
-
+<span id="visual-walkthrough"></span>
 ## 🖥️ Visual Application Walkthrough & User Flows
 
 Follow through the main functional pages of AppointCenter:
